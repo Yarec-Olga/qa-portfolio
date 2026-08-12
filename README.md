@@ -20,4 +20,4 @@
 pip install selenium pytest
 
 2. Запустить тесты:
-pytest test_text_box.py
+pytest test_text_box.py test_button_page.py
