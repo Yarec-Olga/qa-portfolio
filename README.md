@@ -14,10 +14,11 @@
 - Заполнение формы (Text Box)
 - Проверка полей ввода
 - Нажатие кнопок
+- Чекбоксы (Check Box)
 
 ## Как запустить
 1. Установить зависимости:
 pip install selenium pytest
 
 2. Запустить тесты:
-pytest test_text_box.py test_button_page.py
+pytest test_text_box.py test_button_page.py test_check_box.py
