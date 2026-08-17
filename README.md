@@ -16,10 +16,11 @@
 - Нажатие кнопок
 - Чекбоксы (Check Box)
 - Радиокнопки (Radio Button)
+- Ссылки (Links)
 
 ## Как запустить
 1. Установить зависимости:
 pip install selenium pytest
 
 2. Запустить тесты:
-pytest test_text_box.py test_button_page.py test_check_box.py test_radio_button.py
+pytest test_text_box.py test_button_page.py test_check_box.py test_radio_button.py test_links_page.py
