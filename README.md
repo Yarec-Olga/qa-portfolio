@@ -1,26 +1,25 @@
 # QA Automation Portfolio
 
-## О проекте
-Автоматизированные тесты для веб-приложения demoqa.com
-Написаны на Python с использованием Selenium WebDriver и Pytest.
+## About
+Automated UI tests for the web application demoqa.com,
+written in Python with Selenium WebDriver and Pytest.
 
-## Технологии
+## Tech Stack
 - Python
 - Selenium WebDriver
 - Pytest
 - Page Object Model (POM)
 
-## Что тестируется
-- Заполнение формы (Text Box)
-- Проверка полей ввода
-- Нажатие кнопок
-- Чекбоксы (Check Box)
-- Радиокнопки (Radio Button)
-- Ссылки (Links)
+## What Is Tested
+- Form input (Text Box)
+- Input field checks
+- Button clicks
+- Checkboxes (Check Box)
+- Radio buttons (Radio Button)
+- Links
 
-## Как запустить
-1. Установить зависимости:
-pip install selenium pytest
-
-2. Запустить тесты:
-pytest test_text_box.py test_button_page.py test_check_box.py test_radio_button.py test_links_page.py
+## How to Run
+1. Install dependencies:
+   `pip install selenium pytest`
+2. Run the tests:
+   `pytest test_text_box.py test_button_page.py test_check_box.py test_radio_button.py test_links_page.py`
