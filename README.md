@@ -26,5 +26,6 @@ written in Python with Selenium WebDriver and Pytest.
 
 ## Author
 Olga Yarec - Junior QA Automation Engineer
+
 learning git step by step
  
