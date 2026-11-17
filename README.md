@@ -28,4 +28,6 @@ written in Python with Selenium WebDriver and Pytest.
 Olga Yarec - Junior QA Automation Engineer
 
 learning git step by step
- 
+
+
+ Pull test.
