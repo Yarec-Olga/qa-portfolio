@@ -23,3 +23,7 @@ written in Python with Selenium WebDriver and Pytest.
    `pip install selenium pytest`
 2. Run the tests:
    `pytest test_text_box.py test_button_page.py test_check_box.py test_radio_button.py test_links_page.py`
+
+## Author
+Olga Yarec - Junior QA Automation Engineer
+ 
