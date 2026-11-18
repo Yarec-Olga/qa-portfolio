@@ -31,4 +31,4 @@ learning git step by step
 
 Pull test.
 
-Practicing Pull Requests.
+Practicing merge conflicts in a branch
