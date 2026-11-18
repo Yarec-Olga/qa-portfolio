@@ -31,4 +31,4 @@ learning git step by step
 
 Pull test.
 
-Practicing merge conflicts in main
+Practicing merge conflicts 
