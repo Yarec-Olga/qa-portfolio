@@ -29,5 +29,6 @@ Olga Yarec - Junior QA Automation Engineer
 
 learning git step by step
 
+Pull test.
 
- Pull test.
+Practicing Pull Requests.
