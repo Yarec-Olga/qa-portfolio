@@ -2,3 +2,4 @@ secret.txt
 .idea/
 __pycache__/
 first_request.py
+practice_api.py
