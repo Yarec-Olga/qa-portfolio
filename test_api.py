@@ -26,3 +26,11 @@ def test_get_user2_name():
 def test_get_user999_status_code():
     response = requests.get("https://jsonplaceholder.typicode.com/users/999")
     assert response.status_code == 404
+
+def test_create_post():
+    new_post = {"title": "My first post", "body": "Hello from Olga", "userId": 1}
+    response = requests.post("https://jsonplaceholder.typicode.com/posts", json=new_post)
+    assert response.status_code == 201
+    data = response.json()
+
+    
