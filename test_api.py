@@ -32,8 +32,8 @@ def test_create_post():
     response = requests.post("https://jsonplaceholder.typicode.com/posts", json=new_post)
     assert response.status_code == 201
     data = response.json()
-
+    assert data["title"] == new_post["title"], f"Expected {new_post['title']}, got {data['title']}"
 def test_delete_post():
     response = requests.delete("https://jsonplaceholder.typicode.com/posts/1")
     assert response.status_code == 200
-    assert response.json() == {}, f"Expected empty response, pgot {response.json()}"
+    assert response.json() == {}, f"Expected empty response, got {response.json()}"
